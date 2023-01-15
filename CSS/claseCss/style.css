@@ -1,0 +1,19 @@
+/*por el elemento*/
+
+p {
+    color: blue;
+    font-size: 30px;
+}
+
+/*Class*/
+
+.parrafo {
+    color: red;
+}
+
+/*ID*/  
+
+#texto {
+    color:yellowgreen;
+    font-size: 24px;
+}

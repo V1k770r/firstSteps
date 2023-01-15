@@ -1,0 +1,26 @@
+body{
+    background-color: beige;
+}
+
+#title{
+    color: blue;
+    font-size: 40px;
+}
+
+.Fruits{
+    color: red;
+    font-size: 25px;
+}
+.Meats{
+    color: green;
+    font-size: 25px;
+}
+.Vegetables{
+    color: purple;
+    font-size: 25px;
+}
+
+#size{
+    width: 250px;
+    height: 250px;
+}
