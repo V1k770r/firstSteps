@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main {
+    width: 500px;
+    height: 700px;
+    margin: 50px auto;
+}
+
+.container-titulo {
+    width: 150px;
+    height: 75px;
+    background-color: red;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+    border-radius: 5px;
+}
+
+.containter-descripcion {
+    width: 500px;
+    height: 300px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container-titulo p {
+    padding: 30px;
+    font-size: 2.5rem;
+}
+
+.containter-descripcion p {
+    padding: 80px;
+    font-size: 2rem;
+}
+
+.container-descripcion-2 {
+    width: 150px;
+    height: 75px;
+    background-color: green;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: 25px;
+    border-radius: 5px;
+}
+
+.container-descripcion-2 p {
+   padding: 25px;
+    font-size: 2.5rem;
+}
