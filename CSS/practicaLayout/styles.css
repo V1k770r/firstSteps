@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(135,179,179);
+    width: 100%;
+    height: 12%;
+}
+
+.logo {
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    font-size: 5.4rem;
+}
+
+.nav {
+    position: relative;
+    display: inline-block;
+    bottom: 0.3rem;
+    left: 62%;
+    text-align: center;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.6rem;
+}
+
+li{
+    display: inline-block;
+    font-size: 2.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main{
+    background-color: grey;
+    width: 100%;
+    height: 80%;
+}
+
+main .text-content{
+    display: inline-block;
+    position: relative;
+    
+    width: 69%;
+    height: 100%;
+    bottom: 81%;
+}
+
+.box-side {
+    display: inline-block;
+    background: peachpuff;
+    width: 30%;
+    height: 100%
+}
+
+.box-side div {
+    position: relative;
+    background-color: rgb(155,65,155);
+    width: 90%;
+    height: 21.5%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    top: 1rem;
+    border-radius: 0.5rem;
+}
+
+footer {
+    background-color: rgb(126,139,9);
+    width: 100%;
+    height: 8%;
+}
+
+footer .about-us{
+    display: inline-block;
+    position: relative;
+    width: 10%;
+    height: 100%;
+    left: 5%;
+}
+
+.redes-sociales{
+    display: inline-block;
+    position: relative;
+    left: 65%;
+    top: 10%;    
+}
+
+.redes-sociales li{
+    background-color: aqua;
+}
+
+.redes-sociales li a{
+    font-size: 1.6rem;
+    color: black;
+    text-decoration: none;
+}
+
+
