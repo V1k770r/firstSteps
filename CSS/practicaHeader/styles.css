@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: black;
+
+}
+
+.container {
+    background-color: rgb(8, 72, 100);
+    width: 100vw;
+    height: 25vh;
+    border: dotted white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+img{
+    width: 240px;
+    height: 200px;
+    position: relative;
+    left: 40px;
+
+}
+
+.nav{
+    font-size: 7rem;
+    position: relative;
+    right: 30px;
+    top: 60px;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+li{
+    display: inline-block;
+}
+
+.cuerpo {
+    display: flex;
+    background-color: darkgrey;
+    width: 100vw;
+    height: 100vh;
+    border: dotted white;
+    
+}
+
+.box-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: peachpuff;
+    width: 30%;
+    height: 100%
+}
+
+.box-side div {
+    background-color: rgb(155,65,155);
+    width: 90%;
+    height: 20%;
+    font-size: 3rem;
+    text-align: justify; 
+    border-radius: 1rem;
+
+}
+
+.text-content{
+    background-color: darkgray;
+    width: 70%;
+    height: 100%;
+    font-size: 5rem;
+    text-align: center;
+    padding: 100px 40px ;
+   
+}
+
+.pie {
+    background-color: darkcyan;
+    width: 100vw;
+    height: 20vh;
+    border: dotted white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .about-us{
+    position: relative;
+    width: 10%;
+    height: 100%;
+    top: 15%;
+    left: 5%;
+    font-size: 4rem;
+}
+
+.redes-sociales{
+    display: inline-block;
+    position: relative;
+    right: 40px;
+}
+
+.redes-sociales li{
+    background-color: aqua;
+    
+}
+
+.redes-sociales li a{
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
